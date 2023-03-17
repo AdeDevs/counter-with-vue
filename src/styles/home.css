@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Indie+Flower&family=Montserrat&family=Poppins&display=swap');
+
+.dummy-box {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.dummy, .dummy p {
+    font-family: "Comfortaa", sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: blue;
+    border: 2px solid red;
+    margin: 10px auto;
+    width: 300px;
+}
+
+.dummy-box p {
+    background-color: transparent;
+}

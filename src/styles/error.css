@@ -1,0 +1,14 @@
+.error {
+    height: 100vh;
+    background-color: red;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    color: white;
+    font-size: 3em;
+}
+
+.error h1 {
+    display: block;
+}

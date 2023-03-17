@@ -1,0 +1,43 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+  }
+  
+  a.router-link-exact-active {
+    color: red;
+    border: 2px solid blue;
+    border-radius: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.route-nav {
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  width: 30%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; 
+}
+
+.route-nav img {
+  width: 32px;
+  margin: 0 8px;
+  align-items: center;
+}

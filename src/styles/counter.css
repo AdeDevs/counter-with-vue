@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Indie+Flower&family=Montserrat&family=Poppins&display=swap');
+
+.counter {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid red;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+#ctr {
+    background-color: black;
+    border: 2px solid red;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+.counter h1 {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.counter input {
+    color: white;
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+.counter input::placeholder {
+    color: rgb(200, 200, 200);
+}
+
+.counter input:focus {
+    border: 2px solid red;
+}
+
+.counter .submit {
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+
+.counter .submit:hover, .reset:hover {
+    border: 2px solid red;
+    transition: 200ms;
+}
+
+.counter .manage {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.counter .manage button{
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.counter .manage button:hover {
+    border-bottom: 2px solid red;
+    transition: 200ms;
+}
+
+.counter img {
+    width: 35px;
+}
+
+.reset {
+    padding: 10px 50px;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+#txt {
+  background-color: red;
+  display: none;
+}
+
+#ctr {
+  display: none;
+}

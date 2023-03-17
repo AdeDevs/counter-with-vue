@@ -1,4 +1,5 @@
-# alt-vue-counter
+# vue-route-counter
+[Link to the website](https://kryptykaltcounter.web.app/)
 
 ## Project setup
 ```
